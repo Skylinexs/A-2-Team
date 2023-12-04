@@ -1,6 +1,7 @@
 # A-2-Team
 ## 😃🇵🇾:Robotics Team A-2
-* The objective of this project is to be able to complete the Pick n Pace and Stacking tasks
+* The first objective of this project is to be able to complete the Pick n Pace and Stacking tasks.
+* The second objective is the integratoin task, we design our own fixture to use with the robot arm also 
 
 ## Simulations :rob:
 
