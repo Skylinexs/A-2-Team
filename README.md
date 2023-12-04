@@ -1,6 +1,6 @@
 # A-2-Team
 ## 😃🇵🇾:Robotics Team A-2
-* The objective of this project 
+* The objective of this project is to be able to complete the Pick n Pace and Stacking tasks
 
 ## Simulations :rob:
 
