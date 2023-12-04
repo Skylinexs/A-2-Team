@@ -11,3 +11,5 @@
 ## ME Files ⚒️
 * [STL Files](https://github.com/Skylinexs/A-2-Team/tree/main/3D%20Files)
 ## EE (I/O, Wiring and HMI Program) 🪛🔌
+*![image](https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d)
+
