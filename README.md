@@ -1,15 +1,15 @@
 # A-2-Team
-Robotics Team A-2
-(Describe)
+## 😃:Robotics Team A-2
+* The objective of this project 
 
-Simulations
+## Simulations
 
-Pick and place code
+## Pick and place code
 
-Stacking code
+## Stacking code
 
-Costumized task code
+## Costumized task code
 
-ME Files
+## ME Files
 
-EE
+## EE (I/O, Wiring and HMI Program)
