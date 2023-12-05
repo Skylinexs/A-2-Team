@@ -1,6 +1,7 @@
 # A-2-Team
 ## 😃🇵🇾:Robotics Team A-2
-Welcome to our final exam project where after all the lectures and meetings held we improve our skills in coding and planning to enable an Epson robot arm to tackle specific tasks assigned by our professor. The project is centered around two fundamental objectives, each evaluated based on completion time. We are doing a competition between the teams conformed by our classmates. The tasks that we are going to do are the following: ⬇️⬇️⬇️
+Welcome to our final exam project where after all the lectures and meetings held we improve our skills in coding and planning to enable an Epson robot arm to tackle specific tasks assigned by our professor. 
+The project is centered around two fundamental objectives, each evaluated based on completion time. We are doing a competition between the teams conformed by our classmates. The tasks that we are going to do are the following: ⬇️⬇️⬇️
 
 * Basic Task 1: Pick-n-Place Criterion
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
