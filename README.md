@@ -15,7 +15,7 @@ Elevating the complexity, we integrated challenge tasks with self-designed fixtu
 * Taske 1 (Pick n' Place)
 
 
- [![Task1](https://img.youtube.com/vi/sVbbRuXEqnc/0.jpg)](https://www.youtube.com/watch?v=sVbbRuXEqnc)
+ [![Task1pickand place](https://img.youtube.com/vi/sVbbRuXEqnc/0.jpg)](https://www.youtube.com/watch?v=sVbbRuXEqnc)
 
 
  
