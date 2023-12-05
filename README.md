@@ -1,7 +1,7 @@
 # A-2-Team
 ## 😃🇵🇾:Robotics Team A-2
-*📍The first objective of this project is to be able to complete the Pick n Pace and Stacking tasks.
-*📍 The second objective is the integratoin task, we design our own fixture to use with the robot arm also 
+* The first objective of this project is to be able to complete the Pick n Pace and Stacking tasks.
+* The second objective is the integratoin task, we design our own fixture to use with the robot arm also 
 
 ## Simulations 🎮:
 * [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Task1%20Simulation%20mp4.mp4)
@@ -11,5 +11,5 @@
 ## ME Files ⚒️
 * [STL Files](https://github.com/Skylinexs/A-2-Team/tree/main/3D%20Files)
 ## EE (I/O, Wiring and HMI Program) 🪛🔌
-*HMI PROGRAM![image](https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d)
+* HMI PROGRAM![image](https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d)
 
