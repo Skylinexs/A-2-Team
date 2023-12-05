@@ -27,7 +27,9 @@ Elevating the complexity, we integrated challenge tasks with self-designed fixtu
 
 
 
-## Programing Codes 👨🏻‍💻
+## Programing Codes 👨🏻‍💻 
+* Pick n' Place
+  ![Example Image](https://github.com/Skylinexs/A-2-Team/blob/main/Example.jpg)
 
 ## ME Files ⚒️
 * [STL Files](https://github.com/Skylinexs/A-2-Team/tree/main/3D%20Files)
