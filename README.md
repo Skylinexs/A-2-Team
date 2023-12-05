@@ -12,10 +12,10 @@ In this challenge, the robot skillfully stacks five tokens and five blocks alter
 * Integration Task: Criterion
 Elevating the complexity, we integrated challenge tasks with self-designed fixtures, incorporating an I/O box and an HMI (Human-Machine Interface).
 ## Simulations 🎮
-* Taske 1 (Pick n' Place)
+* Task 1 (Pick n' Place)
 
 
- [![Task1pickand place](https://img.youtube.com/vi/sVbbRuXEqnc/0.jpg)](https://www.youtube.com/watch?v=sVbbRuXEqnc)
+ [![Task1](https://img.youtube.com/vi/sVbbRuXEqnc/0.jpg)](https://www.youtube.com/watch?v=sVbbRuXEqnc)
 
 
  
