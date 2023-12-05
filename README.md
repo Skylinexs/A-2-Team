@@ -45,6 +45,9 @@ Elevating the complexity, we integrated challenge tasks with self-designed fixtu
 ## EE (I/O, Wiring and HMI Program) 🪛🔌
 * HMI PROGRAM
 <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d" alt="image" width="500" height="300">
+<div style="text-align:center;">
+  <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d" alt="image" width="500" height="300">
+</div>
 
 
 
