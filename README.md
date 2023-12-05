@@ -3,13 +3,13 @@
 Welcome to our final exam project where after all the lectures and meetings held we improve our skills in coding and planning to enable an Epson robot arm to tackle specific tasks assigned by our professor. 
 The project is centered around two fundamental objectives, each evaluated based on completion time. We are doing a competition between the teams conformed by our classmates. The tasks that we are going to do are the following: ⬇️⬇️⬇️
 
-* Basic Task 1: Pick-n-Place Criterion
+* ## Basic Task 1: Pick-n-Place Criterion
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
-* Basic Task 2: Stack-up Criterion
+* ## Basic Task 2: Stack-up Criterion
 In this challenge, the robot skillfully stacks five tokens and five blocks alternatively. The success is measured by the total time taken, with the team achieving the shortest time emerging victorious.
 
-* Integration Task: Criterion
+* ## Integration Task: Criterion
 Elevating the complexity, we integrated challenge tasks with self-designed fixtures, incorporating an I/O box and an HMI (Human-Machine Interface).
 ## Simulations 🎮
 * Task 1 (Pick n' Place)
@@ -28,13 +28,14 @@ Elevating the complexity, we integrated challenge tasks with self-designed fixtu
 
 
 ## Programing Codes 👨🏻‍💻 
-* Pick n' Place
+* ## Pick n' Place
 
 
   ![Example Image](https://github.com/Skylinexs/A-2-Team/blob/main/Example.jpg)
 
 
-* Stacking
+
+* ## Stacking
 
   ![Example Image](example.jpg)
 
