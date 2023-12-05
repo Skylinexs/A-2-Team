@@ -12,7 +12,19 @@ In this challenge, the robot skillfully stacks five tokens and five blocks alter
 * Integration Task: Criterion
 Elevating the complexity, we integrated challenge tasks with self-designed fixtures, incorporating an I/O box and an HMI (Human-Machine Interface).
 ## Simulations 🎮:
-* [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Task1%20Simulation%20mp4.mp4)
+* [Task 1]
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Video Page</title>
+</head>
+<body>
+  <video width="640" height="360" controls>
+    <source src="https://github.com/Skylinexs/A-2-Team/blob/main/Task1%20Simulation%20mp4.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
 * [Task 2](https://github.com/Skylinexs/A-2-Team/blob/main/Task2%20Simulation.mp4)
 ## Programing Codes 👨🏻‍💻
 
