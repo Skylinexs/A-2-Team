@@ -6,23 +6,36 @@ The project is centered around two fundamental objectives, each evaluated based 
 * ## Basic Task 1: Pick-n-Place Criterion
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
+[![Task 1 (Pick and place)](https://img.youtube.com/vi/mE50_5XhfIsD/0.jpg)](https://youtu.be/mE50_5XhfIs)
+
+
 * ## Basic Task 2: Stack-up Criterion
 In this challenge, the robot skillfully stacks six tokens and six blocks alternatively. The success is measured by the total time taken, with the team achieving the shortest time emerging victorious.
 
+[![Task2](https://img.youtube.com/vi/pTWxLXmQEvM/0.jpg)](https://www.youtube.com/watch?v=pTWxLXmQEvM)
+
 * ## Integration Task: Criterion
 For this challenge we want to show the advantage and cons of having a 3D printed tray, the main advantage is that we can move the tray around the fixture because of its ligth weight but the bad thing about is that is not accurate nor precise, we implemented the IO Box for this challenge as well.
+
+[![Task3)](https://img.youtube.com/vi/Ddgq2x1nr8A/0.jpg)](https://www.youtube.com/watch?v=Ddgq2x1nr8A)
+
+In the following video, you can observe how we have implemented a method to enable the arm to detect the absence of any of the tokens and, consequently, sort them depending on which one is missing
+
+[![Task3 (2))](https://img.youtube.com/vi/M23mgL0diwQ/0.jpg)](https://www.youtube.com/watch?v=M23mgL0diwQ)
+
+
 ## Simulations 🎮
 * Task 1 (Pick n' Place)
 
 
- [![Task1](https://img.youtube.com/vi/sVbbRuXEqnc/0.jpg)](https://www.youtube.com/watch?v=sVbbRuXEqnc)
+  [Pick n' Place](https://www.youtube.com/watch?v=sVbbRuXEqnc)
 
 
  
 * Task 2 (Stacking)
 
 
- [![Task 2](https://img.youtube.com/vi/k44DTTMQ_2I/0.jpg)](https://www.youtube.com/watch?v=k44DTTMQ_2I)
+  [Stacking](https://www.youtube.com/watch?v=k44DTTMQ_2I)
 
 
 
