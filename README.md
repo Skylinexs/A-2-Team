@@ -87,7 +87,7 @@ In the following video, you can observe how we have implemented a method to enab
 <p align="center">
   <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d" alt="image" width="500" height="300">
 </p>
-*IO Box Wiring Diagram
+* IO Box Wiring Diagram
 <p align="center">
  <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/b9f763cc-bf91-45b0-b7ab-37c07b5655d5" alt="image" width="500" height="300">
 </p> 
