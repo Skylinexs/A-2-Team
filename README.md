@@ -41,16 +41,11 @@ In the following video, you can observe how we have implemented a method to enab
 ## Simulations 🎮
 * Task 1 (Pick n' Place)
 
-
   [Pick n' Place](https://www.youtube.com/watch?v=sVbbRuXEqnc)
-
-
  
 * Task 2 (Stacking)
 
-
   [Stacking](https://www.youtube.com/watch?v=k44DTTMQ_2I)
-
 
 * Task 3 (Integration 3D printed tray)
 
@@ -58,25 +53,24 @@ In the following video, you can observe how we have implemented a method to enab
 
 ## Programing Codes 👨🏻‍💻 
 *  Pick n' Place
-
-  [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place.txt)
+   [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place.txt)
   
-  [Task 1 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place(I%20O%20Box).txt)
+   [Task 1 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place(I%20O%20Box).txt)
 
 
 *  Stacking
 
-  [Task 2](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking.txt)
+   [Task 2](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking.txt)
  
-  [Task 2 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking%20(I-O%20Box).txt)
+   [Task 2 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking%20(I-O%20Box).txt)
 
 *  Integration
 
-  [Task 3](https://github.com/Skylinexs/A-2-Team/blob/main/Integration.txt)
+   [Task 3](https://github.com/Skylinexs/A-2-Team/blob/main/Integration.txt)
 
-  [Task 3 with I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box).txt)
+   [Task 3 with I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box).txt)
 
-  [Task 3 with Blue botton I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box%20Blue%20Botton).txt)
+   [Task 3 with Blue botton I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box%20Blue%20Botton).txt)
 
 
 ## ME Files ⚒️
