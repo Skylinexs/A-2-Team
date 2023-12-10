@@ -1,0 +1,39 @@
+Function task3io
+		Begin:
+		Go Start
+		Motor On
+		Power High
+		Wait Sw(0) = Off
+		Do While Sw(0) = Off And Sw(1) = Off
+			If Sw(4) = On Then
+				GoTo Tray
+			EndIf
+		Loop
+    	If Sw(0) = On Then
+    		Xqt task3
+   		 Do While Sw(0) = On And Sw(7) = Off
+    	If Sw(4) = On Then
+    		Halt task3
+    	Else
+    		Resume task3
+    	EndIf
+   		 Loop
+   		 Quit task3
+   		 Off 8
+   		 Wait 3
+  		  GoTo Begin
+   		EndIf
+   		Tray:
+   			Xqt task32
+   			Do While Sw(0) = Off And Sw(7) = Off
+    	If Sw(4) = On Then
+    		Halt task32
+    	Else
+    		Resume task32
+    	EndIf
+   		 Loop
+   		 Quit task32
+   		 Off 8
+   		 Wait 3
+  		  GoTo Begin
+Fend

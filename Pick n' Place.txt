@@ -1,0 +1,108 @@
+Integer S_POS
+Integer C_POS
+Integer C2
+Integer S2
+Function task1
+Tool 1
+Go Start
+ 
+	For C_POS = 0 To 2
+ 		 PickC()
+ 		 FixC()
+ 		 PlaceC()
+ 	Next C_POS
+ 	For S_POS = 0 To 2
+ 		PickS()
+ 		FixS()
+ 		PlaceS()
+ 	 	Next
+ 	C_POS = 2
+ 	S_POS = 2
+ 	For C2 = 0 To 2
+ 		PickC2()
+ 		PlaceC2()
+ 	Next
+ 	For S2 = 0 To 2
+ 		PickS2()
+ 		PlaceS2()
+ 	Next
+
+Go Start
+Fend
+
+ Function PickC
+ Go FeederOC +Z(-40) /1
+ Go FeederOC +Z(C_POS * 6) /1
+ On 8
+ Wait 0.5
+ Go FeederOC +Z(-40) /1
+ Fend
+  Function FixC
+ Go FixtureOC +Z(-10) /1
+ Go FixtureOC /1
+ Off 8
+ Move FixtureOC +X(25)
+ Go FixtureCP +Z(-10) /1
+ Go FixtureCP +Z(1) /1
+ On 8
+ Wait 0.5
+ Move FixtureCP +Z(-10) /1
+ Fend
+ Function PlaceC
+ 	Go trayo +Z(-10) +Y(-C_POS * 30) /1
+ 	Move trayo +Y(-C_POS * 30) /1
+ 	Off 8
+ Fend
+Function PickS
+ Go FeederOC +Y(27) +Z(-40) /1
+ Go FeederOC +Y(27) +Z(S_POS * 6) /1
+ On 8
+ Wait 0.5
+ Go FeederOC +Y(27) +Z(-40) /1
+ Fend
+ Function FixS
+ Go FixtureOC +Y(25) +Z(-15) /1
+ Go FixtureOC +X(-2) +Y(25) /1
+ Off 8
+ Move FixtureOC +Y(30) +Z(-1) /1
+ Move FixtureOC +Y(30) +X(25) +Z(-1) /1
+ Go FixtureSP +Z(-10) +X(1.5) /1
+ Go FixtureSP +X(1.5) /1
+ On 8
+ Wait 0.5
+ Move FixtureSP +Z(-10) /1
+ Fend
+Function PlaceS
+ 	Go trayo +Z(-10) +X(-32) +Y(0.7 + -S_POS * 30) +U(89) /1
+ 	Go trayo +X(-32) +Y(0.7 + -S_POS * 30) +U(89) /1
+ 	Off 8
+ 	Go trayo +X(-32) +Y(0.7 + -S_POS * 30) +U(89) /1
+ Fend
+  Function PickC2
+ 	Go trayo +Z(-10) +Y(-C2 * 30) /1
+ 	Go trayo +Z(1) +Y(-C2 * 30) /1
+ 	On 8
+ 	Wait 0.5
+ 	Go trayo +Z(-10) +Y(-C2 * 30) /1
+ Fend
+Function PlaceC2
+ Go FeederOC +X(-3) +Z(-40) /1
+ Go FeederOC +X(-3) +Z(C_POS * 6) /1
+ C_POS = C_POS - 1
+ Off 8
+ Go FeederOC +Z(-40) /1
+ Fend
+ Function PickS2
+ 	Go trayo +Z(-10) +X(-32) +Y(0.7 + -S2 * 30) +U(89) /1
+ 	Move trayo +Z(1) +X(-32) +Y(0.7 + -S2 * 30) +U(89) /1
+ 	On 8
+ 	Wait 0.5
+ 	Go trayo +Z(-10) +X(-32) +Y(0.7 + -S2 * 30) +U(89) /1
+ Fend
+Function PlaceS2
+ Go FeederOC +Y(25) +X(-3) +Z(-50) /1
+ Go FeederOC +Y(25) +X(-3) +Z(S_POS * 6) /1
+ S_POS = S_POS - 1
+ Off 8
+ Go FeederOC +Y(25) +X(-1) +Z(-40) /1
+ Fend

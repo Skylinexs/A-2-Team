@@ -1,0 +1,184 @@
+Integer C_POS
+Integer S_POS
+Integer DetectC
+Integer DetectS
+Integer H
+Integer actc
+Integer acts
+Function task3
+	Tool 1
+	H = 6
+	C_POS = 0
+	S_POS = 0
+	Go Start
+	CheckC()
+	CheckS()
+	If actc = 0 Or acts = 0 Then
+		PickT()
+		PlaceT()
+	EndIf
+	If actc = 0 Then
+		For C_POS = DetectC To 2
+ 		 Pickct3()
+ 		 Fixct3()
+ 		 Placect3()
+	 	Next
+	ElseIf actc = 1 Then
+		GoTo Square
+	EndIf
+ 	Square:
+ 	If acts = 0 Then
+ 		For S_POS = DetectS To 2
+ 		Pickst3()
+ 		Fixst3()
+ 		Placest3()
+	 	Next
+	ElseIf acts = 1 Then
+	 	GoTo End
+ 	EndIf
+ 	Final()
+ 	End:
+ 	Go Start
+Fend
+Function CheckC
+	Go FeederOC +Z(-40) /1
+ 	Go FeederOC +Z(C_POS * H) /1
+ 	On 8
+ 	Wait 0.5
+ 	If Sw(16) = On Then
+ 		DetectC = 0
+ 		actc = 0
+ 	ElseIf Sw(16) = Off Then
+ 		C_POS = 1
+ 		Go FeederOC +Z(C_POS * H) /1
+ 		Wait 0.5
+ 		If Sw(16) = On Then
+ 			DetectC = 1
+ 			actc = 0
+ 		ElseIf Sw(16) = Off Then
+ 			C_POS = 2
+ 			Go FeederOC +Z(C_POS * H) /1
+ 			Wait 0.5
+ 			If Sw(16) = On Then
+ 				DetectC = 2
+ 				actc = 0
+ 			ElseIf Sw(16) = Off Then
+ 				actc = 1
+ 			EndIf
+ 		EndIf
+ 	EndIf
+ 	Off 8
+ 	Wait 0.5
+ 	Go FeederOC +Z(-40) /1
+ 	C_POS = 0
+Fend
+Function CheckS
+	Go FeederOC +Y(27) +Z(-40) /1
+ 	Go FeederOC +Y(27) +Z(S_POS * H) /1
+ 	On 8
+ 	Wait 0.5
+ 	If Sw(16) = On Then
+ 		DetectS = 0
+ 		acts = 0
+ 	ElseIf Sw(16) = Off Then
+ 		S_POS = 1
+ 		Go FeederOC +Y(27) +Z(S_POS * H) /1
+ 		Wait 0.5
+ 		If Sw(16) = On Then
+ 			DetectS = 1
+ 			acts = 0
+ 		ElseIf Sw(16) = Off Then
+ 			S_POS = 2
+ 			Go FeederOC +Y(27) +Z(S_POS * H) /1
+ 			Wait 0.5
+ 			If Sw(16) = On Then
+ 				DetectS = 2
+ 				acts = 0
+ 			ElseIf Sw(16) = Off Then
+ 				acts = 1
+ 			EndIf
+ 		EndIf
+ 	EndIf
+ 	Off 8
+ 	Wait 0.5
+ 	Go FeederOC +Z(-40) +Y(27) /1
+ 	S_POS = 0
+Fend
+Function PickT
+	Go OriginPT +Z(-15) /1
+	Go OriginPT +Z(1) /1
+	On 8
+	Wait 1
+	Go OriginPT +Z(-15) /1
+Fend
+Function PlaceT
+	Go FinalPT +Z(-15) +U(-1) /1
+	Go FinalPT +U(-1) /1
+	Wait 0.5
+	Off 8
+	Go FinalPT +Z(-5) /1
+Fend
+ Function Pickct3
+ Go FeederOC +Z(-40) /1
+ Go FeederOC +Z(C_POS * H) /1
+ On 8
+ Wait 0.5
+ Go FeederOC +Z(-40) /1
+ Fend
+  Function Fixct3
+ Go FixtureOC +Z(-10) /1
+ Go FixtureOC /1
+ Off 8
+ Go Fixc3 +Z(-10) /1
+ On 10
+ Wait 1
+ Off 10
+ Go Fixc3 +Z(1) /1
+ On 8
+ Wait 0.5
+ Move Fixc3 +Z(-10) /1
+ Fend
+  Function Placect3
+ 	Go tray3 +X(2) +Z(-15) +Y(-C_POS * 30) /1
+ 	Move tray3 +X(2) +Y(-C_POS * 30) /1
+ 	Off 8
+ 	Wait 0.5
+ Fend
+Function Pickst3
+ Go FeederOC +Y(27) +Z(-40) /1
+ Go FeederOC +Y(27) +Z(S_POS * H) /1
+ On 8
+ Wait 0.5
+ Go FeederOC +Y(27) +Z(-40) /1
+ Fend
+ Function Fixst3
+ Go FixtureOC +Y(25) +Z(-15) /1
+ Go FixtureOC +X(-2) +Y(25) /1
+ Off 8
+ Move FixtureOC +Y(30) /1
+ Move FixtureOC +Y(30) +X(20) /1
+ Go FixtureSP +Z(-10) /1
+ Go FixtureSP /1
+ On 8
+ Wait 0.5
+ Move FixtureSP +Z(-10) /1
+ Fend
+Function Placest3
+ 	Go tray3 +Z(-10) +X(-30.5) +Y(2.1 + -S_POS * 30) +U(89) /1
+ 	Go tray3 +X(-30.5) +Y(2.1 + -S_POS * 30) +U(89) /1
+ 	Off 8
+ 	Wait 0.5
+ 	Go tray3 +X(-30.5) +Y(2.1 + -S_POS * 30) +U(89) /1
+ Fend
+ Function Final
+ 	Go PT +Z(-10) /1
+ 	Go PT +Z(1) /1
+ 	On 8
+ 	Wait 1
+ 	Go PT +Z(-10) /1
+ 	Go OriginPT +Z(-10) +U(90) +X(-5) +Y(-5) /1
+ 	Go OriginPT +U(90) +X(-5) +Y(-5) /1
+ 	Off 8
+ 	Wait 0.5
+ 	Move OriginPT +U(90) +X(10) +Y(10) /1
+ Fend

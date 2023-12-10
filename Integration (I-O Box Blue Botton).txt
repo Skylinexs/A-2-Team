@@ -1,0 +1,43 @@
+Integer C2
+Integer S2
+Integer S_POS
+Integer C_POS
+Function task32
+	 	For C2 = 0 To 2
+ 		Pickcc()
+ 		Placecc()
+ 	Next
+ 	For S2 = 0 To 2
+ 		Pickss()
+ 		Placess()
+ 	Next
+ 	Go Start
+Fend
+ Function Pickcc
+ 	Go tray5 +Z(-10) +X(-C2 * 30) /1
+ 	Go tray5 +Z(2) +X(-C2 * 30) /1
+ 	On 8
+ 	Wait 0.5
+ 	Go tray5 +Z(-10) +X(-C2 * 30) /1
+ Fend
+Function Placecc
+ Go FeederOC +X(-3) +Z(-40) /1
+ Go FeederOC +X(-3) +Z(C_POS * 6) /1
+ C_POS = C_POS - 1
+ Off 8
+ Go FeederOC +Z(-40) /1
+ Fend
+ Function Pickss
+ 	Go tray5 +Z(-10) +Y(-32) +X(0.7 + -S2 * 30) /1
+ 	Go tray5 +Z(2) +Y(-32) +X(0.7 + -S2 * 30) /1
+ 	On 8
+ 	Wait 0.5
+ 	Go tray5 +Z(-10) +Y(-32) +X(0.7 + -S2 * 30) /1
+ Fend
+Function Placess
+ Go FeederOC +Y(23) +X(-3) +Z(-50) /1
+ Go FeederOC +Y(23) +X(-3) +Z(S_POS * 6) /1
+ S_POS = S_POS - 1
+ Off 8
+ Go FeederOC +Y(25) +X(-1) +Z(-40) /1
+ Fend

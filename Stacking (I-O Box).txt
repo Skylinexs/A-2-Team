@@ -1,0 +1,17 @@
+Function task2io
+	Do While 1
+    Wait Sw(0) = On
+    Xqt task2
+    Do While Sw(0) = On And Sw(7) = Off
+    	If Sw(4) = On Then
+    		Halt task2
+    	Else
+    		Resume task2
+    	EndIf
+    Loop
+    Quit task2
+    Off 8
+    Wait 3
+    Go Start
+    Loop
+Fend
