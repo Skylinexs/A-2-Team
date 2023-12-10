@@ -53,7 +53,9 @@ In the following video, you can observe how we have implemented a method to enab
   [Stacking](https://www.youtube.com/watch?v=k44DTTMQ_2I)
 
 
+* Task 3 (Integration 3D printed tray)
 
+  [Integration](https://youtu.be/m8K3Kds7lEA)
 
 ## Programing Codes 👨🏻‍💻 
 * ## Pick n' Place
