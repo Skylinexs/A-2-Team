@@ -22,7 +22,7 @@ In this challenge, the robot skillfully stacks six tokens and six blocks alterna
 </p>
 
 * ## Integration Task: Criterion
-For this challenge we want to show the advantage and cons of having a 3D printed tray, the main advantage is that we can move the tray around the fixture because of its ligth weight but the bad thing about is that is not accurate nor precise, we implemented the IO Box for this challenge as well.
+For this challenge we want to show the advantage and cons of having a 3D printed tray, the main advantage is that we can move the tray around the fixture because of its light weight but the bad thing about is that is not accurate nor precise, we implemented the IO Box for this challenge as well.
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=Ddgq2x1nr8A">
