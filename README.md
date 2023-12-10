@@ -2,13 +2,13 @@
 ## Robotics Team A-2 
 Welcome to our final exam project. After attending lectures and participating in lab meetings, we have been enhancing our coding skills and planning abilities to program an Epson robot arm. Our goal is to complete specific tasks assigned by our professor. The project focuses on two fundamental objectives, each assessed based on completion time. We are engaged in a competition among teams formed by our classmates. 
 
-## Team Members 👨
+## Team Members 🙋🏻‍♂️
 - Kenzo Shirahama
 - Enrique Colmán
 - Tobias Chaparro
 - Cristhian Cabral
 
-## Tasks ✔️
+## Tasks 📝
 * ## Basic Task 1: Pick-n-Place 
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
