@@ -1,8 +1,15 @@
 # Epson Lab Project
 ## Robotics Team A-2 
-Welcome to our final exam project. After attending lectures and participating in lab meetings, we have been enhancing our coding skills and planning abilities to program an Epson robot arm. Our goal is to complete specific tasks assigned by our professor. The project focuses on two fundamental objectives, each assessed based on completion time. We are engaged in a competition among teams formed by our classmates. The tasks that we are going to do are the following: ⬇️⬇️⬇️
+Welcome to our final exam project. After attending lectures and participating in lab meetings, we have been enhancing our coding skills and planning abilities to program an Epson robot arm. Our goal is to complete specific tasks assigned by our professor. The project focuses on two fundamental objectives, each assessed based on completion time. We are engaged in a competition among teams formed by our classmates. 
 
-* ## Basic Task 1: Pick-n-Place Criterion
+## Team Members 👨
+- Kenzo Shirahama
+- Enrique Colmán
+- Tobias Chaparro
+- Cristhian Cabral
+
+## Tasks ✔️
+* ## Basic Task 1: Pick-n-Place 
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
 <p align="center">
@@ -12,7 +19,7 @@ Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the
 </p>
 
 
-* ## Basic Task 2: Stack-up Criterion
+* ## Basic Task 2: Stack-up 
 In this challenge, the robot skillfully stacks six tokens and six blocks alternatively. The success is measured by the total time taken, with the team achieving the shortest time emerging victorious.
 
 <p align="center">
@@ -21,7 +28,7 @@ In this challenge, the robot skillfully stacks six tokens and six blocks alterna
   </a>
 </p>
 
-* ## Integration Task: Criterion
+* ## Task 3 : Integration  
 For this challenge we want to show the advantage and cons of having a 3D printed tray, the main advantage is that we can move the tray around the fixture because of its light weight but the bad thing about is that is not accurate nor precise, we implemented the IO Box for this challenge as well.
 
 <p align="center">
