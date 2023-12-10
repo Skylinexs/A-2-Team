@@ -58,20 +58,20 @@ In the following video, you can observe how we have implemented a method to enab
   [Integration](https://youtu.be/m8K3Kds7lEA)
 
 ## Programing Codes 👨🏻‍💻 
-* ## Pick n' Place
+*  Pick n' Place
 
   [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place.txt)
   
   [Task 1 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place(I%20O%20Box).txt)
 
 
-* ## Stacking
+*  Stacking
 
   [Task 2](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking.txt)
  
   [Task 2 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking%20(I-O%20Box).txt)
 
-* ## Integration
+*  Integration
 
   [Task 3](https://github.com/Skylinexs/A-2-Team/blob/main/Integration.txt)
 
@@ -84,10 +84,13 @@ In the following video, you can observe how we have implemented a method to enab
 * [STL Files](https://github.com/Skylinexs/A-2-Team/tree/main/3D%20Files)
 ## EE (I/O, Wiring and HMI Program) 🪛🔌
 * HMI PROGRAM
+  
 <p align="center">
   <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/7e330766-06bc-427e-82fe-484514557a2d" alt="image" width="500" height="300">
 </p>
+
 * IO Box Wiring Diagram
+  
 <p align="center">
  <img src="https://github.com/Skylinexs/A-2-Team/assets/152862499/b9f763cc-bf91-45b0-b7ab-37c07b5655d5" alt="image" width="500" height="300">
 </p> 
