@@ -7,10 +7,10 @@ The project is centered around two fundamental objectives, each evaluated based 
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
 * ## Basic Task 2: Stack-up Criterion
-In this challenge, the robot skillfully stacks five tokens and five blocks alternatively. The success is measured by the total time taken, with the team achieving the shortest time emerging victorious.
+In this challenge, the robot skillfully stacks six tokens and six blocks alternatively. The success is measured by the total time taken, with the team achieving the shortest time emerging victorious.
 
 * ## Integration Task: Criterion
-Elevating the complexity, we integrated challenge tasks with self-designed fixtures, incorporating an I/O box and an HMI (Human-Machine Interface).
+For this challenge we want to show the advantage and cons of having a 3D printed tray, the main advantage is that we can move the tray around the fixture because of its ligth weight but the bad thing about is that is not accurate nor precise, we implemented the IO Box for this challenge as well.
 ## Simulations 🎮
 * Task 1 (Pick n' Place)
 
