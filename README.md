@@ -7,8 +7,8 @@ The project is centered around two fundamental objectives, each evaluated based 
 Our robot adeptly maneuvers three tokens and three blocks from the Feeder to the Fixture and onward to the Tray, following a precise order. The reverse movement, Tray to Feeder, is executed directly, skipping the fixture cell.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=mE50_5XhfIsD">
-    <img src="https://img.youtube.com/vi/mE50_5XhfIsD/0.jpg" alt="Task1">
+  <a href="https://www.youtube.com/watch?v=mE50_5XhfIs">
+    <img src="https://img.youtube.com/vi/mE50_5XhfIs/0.jpg" alt="Task1">
   </a>
 </p>
 
