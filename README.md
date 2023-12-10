@@ -60,15 +60,24 @@ In the following video, you can observe how we have implemented a method to enab
 ## Programing Codes 👨🏻‍💻 
 * ## Pick n' Place
 
-
-  ![Example Image](https://github.com/Skylinexs/A-2-Team/blob/main/Example.jpg)
-
+  [Task 1](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place.txt)
+  
+  [Task 1 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Pick%20n'%20Place(I%20O%20Box).txt)
 
 
 * ## Stacking
 
-  ![Example Image](example.jpg)
+  [Task 2](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking.txt)
+ 
+  [Task 2 With I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Stacking%20(I-O%20Box).txt)
 
+* ## Integration
+
+  [Task 3](https://github.com/Skylinexs/A-2-Team/blob/main/Integration.txt)
+
+  [Task 3 with I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box).txt)
+
+  [Task 3 with Blue botton I/O Box](https://github.com/Skylinexs/A-2-Team/blob/main/Integration%20(I-O%20Box%20Blue%20Botton).txt)
 
 
 ## ME Files ⚒️
